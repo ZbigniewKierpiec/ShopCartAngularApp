@@ -1,0 +1,20 @@
+<header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+      <i style="font-size:40px" class="fa fa-truck">
+
+      </i>
+      <strong style="font-size:25px ;">Flipkart</strong>
+      <div class="form-group">
+        <input [(ngModel)]="searchTerm"  (keyup)="search($event)"   class="form-control" type="text" placeholder="Serach products">
+        <span class="fa fa-search search-icon"></span>
+      </div>
+
+    </div>
+    <button routerLink="cart" class="btn btn-primary">
+
+      <i style="font-size:40px " class="fa fa-cart-plus"></i>
+         <div  style="font-size:10px ;" class="badge bg-danger">{{totalItem}}</div>
+    </button>
+  </div>
+</header>

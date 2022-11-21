@@ -1,0 +1,19 @@
+.form-control{
+  border-radius: 3px;
+  width: 600px;
+  margin-left: 20px;
+
+}
+.form-group{
+  position: relative !important;
+}
+
+.search-icon{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(-20px , -50%);
+  color: black;
+  z-index: 10;
+
+}
